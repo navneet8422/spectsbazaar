@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>website using html and css</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="main">
+    <nav>
+        
+
+<div class="nav-links">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Offers</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Login/Register</a></li>
+        <li><a href="#">Contact us</a></li>
+
+    </ul>
+</div>
+</nav>
+
+
+<div class="log">
+    <img src="images/logo.jpg" width="250px" height="190px">
+</div>
+
+<div class="searchbox">
+    <input type="text" placeholder="Type to search for lens and eye frames" style="width: 750px; height: 30px">
+    <a href="#">
+                <i class="fas fa-search"></i>
+    </a>
+</div>
+
+
+
+<div class="slider-box">
+    <div id="slider">
+        <img src="images/iris.jpeg" hdw udu>
+        <img src="images/iris1.jfif">
+                <img src="images/iris2.jfif">
+        <img src="images/iris3.jpg">
+    </div>
+
+    <div class="indicators">
+        <span id="btn1"></span>
+        <span id="btn2"></span>
+        <span id="btn3"></span>
+        <span id="btn4"></span>
+    </div>
+    </div>
+
+
+
+<script>
+
+var slide= document.getElementById("slider");
+var btn1= document.getElementById("btn1");
+var btn2= document.getElementById("btn2");
+var btn3= document.getElementById("btn3");
+var btn4= document.getElementById("btn4");
+
+btn1.onclick=function(){
+    slide.style.transform ="translateX(80px)";
+}
+
+btn2.onclick=function(){
+    slide.style.transform ="translateX(-30%)";
+}
+
+btn3.onclick=function(){
+    slide.style.transform ="translateX(-62%)";
+}
+
+btn4.onclick=function(){
+    slide.style.transform ="translateX(-82%)";
+}
+
+</script>
+<div class="text1">
+<P ><i>We deal in: <br>
+ 1.<a href=""> Contact lens for women</a> <br>
+
+ 2.<a href=""> Contact lens for mens </a><br>
+ 3.<a href=""> Sunglasses </a><br>
+ 4.<a href=""> Kids Eyewear</a>
+
+</div>
+
+<div class="text2">
+  <p>  Connect with us:</p>
+  <div class="fa">
+<a href="#">  <i class="fa fa-instagram" style="font-size:30px"></i>
+  <i class="fa fa-facebook" style="font-size:30px"></i>
+  <i class="fa fa-twitter" style="font-size:30px"></i></a>
+</div>
+</div>
+
+<div class="text3">
+    <p>Blog &nbsp | &nbsp Franchise | &nbsp Upload prescription |&nbsp Payment |&nbsp Careers </p>
+</div>
+</body>
+</html>
